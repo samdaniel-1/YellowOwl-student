@@ -1,0 +1,51 @@
+.left_aside{
+  min-height: 100%;
+  width: 351px;
+  background: linear-gradient(90deg, #1E40AF 0%, #9333EA 100%);
+}
+.avtar{
+  background-color: rgba(209,208,208,1);
+  border-radius: 50px 50px 50px 50px;
+  border: 5px solid rgba(209,208,208,1);
+  height: 40px;
+  width: 39.75px;
+  margin-right: 10px;
+}
+.main{
+  background: #E5E7EB;
+  overflow-x: hidden;
+}
+.heading_line{
+  min-width: 100vw;
+  height: 76px;
+  background: linear-gradient(90deg, #4ADE80 0%, #3B82F6 100%);
+}
+
+.total_heading{
+  margin-left: 360px;
+  
+}
+
+.bold{
+  font-size: 30px;
+}
+
+.table_div{
+  border-radius: 20px;
+}
+.header{
+  color: #6B7280;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.6000000238418579px;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
