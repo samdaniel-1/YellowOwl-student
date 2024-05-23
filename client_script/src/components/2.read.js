@@ -16,7 +16,7 @@ function View(){
 const [datas,setDatas] = useState([])
 const [search,setSearch] = useState('')
 useEffect(()=>{
-    axios.get("http://localhost:4009/view")
+    axios.get("https://backend-2-43qa.onrender.com/view")
         .then((res)=>{
             console.log(res.data)
             setDatas(res.data)
