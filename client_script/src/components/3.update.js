@@ -28,7 +28,7 @@ function Update(){
     const handleSubmit = (e) =>{
         e.preventDefault()
 
-        axios.put("http://localhost:4009/update/"+id,{name,email,phone,date_of_admission})
+        axios.put("https://backend-2-43qa.onrender.com/"+id,{name,email,phone,date_of_admission})
         .then(res=>{
             if(res.data.updated){
                 alert('updated')
