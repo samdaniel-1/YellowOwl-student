@@ -20,7 +20,7 @@ function Insert() {
       enroll_number: Math.floor(Math.random()*10000000000,0),
       date_of_admission: date
     };
-    axios.post("http://localhost:4009/post", key).then((res) => {
+    axios.post("https://backend-2-43qa.onrender.com/post", key).then((res) => {
       if (res.data.status === "inserted") {
         console.log("Inserted");
         alert("values are inserted");
