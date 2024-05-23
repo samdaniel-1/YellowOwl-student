@@ -18,7 +18,7 @@ function Delete(){
         <div className="m-2">
         <Button style={{background: "#22C53C"}} className="col-5 m-3 border-light" onClick={()=>{
             
-                axios.get(`http://localhost:4009/deleted/${proid}`)
+                axios.get(`https://backend-2-43qa.onrender.com/deleted/${proid}`)
                 .then((res)=>setName(res.data))
                 window.location.href = '/'
         
