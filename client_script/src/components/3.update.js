@@ -13,7 +13,7 @@ function Update(){
     const [date_of_admission,setDate_of_admission] = useState('')
 
     useEffect(()=>{
-        axios.get('http://localhost:4009/edit/'+id)
+        axios.get('https://backend-2-43qa.onrender.com/edit/'+id)
         .then(res=>{
             setName(res.data[0].name)
             setEmail(res.data[0].email)
@@ -28,7 +28,7 @@ function Update(){
     const handleSubmit = (e) =>{
         e.preventDefault()
 
-        axios.put("https://backend-2-43qa.onrender.com/"+id,{name,email,phone,date_of_admission})
+        axios.put("https://backend-2-43qa.onrender.com/update/"+id,{name,email,phone,date_of_admission})
         .then(res=>{
             if(res.data.updated){
                 alert('updated')
